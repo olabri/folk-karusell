@@ -29,11 +29,13 @@ layout: center
 ---
 
 <script setup>
+
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
   setTimeout(()=> {$slidev.nav.nextSlide()},3000)
 }})
+
 </script>
 
 <div>
@@ -43,15 +45,17 @@ if ($slidev.nav.currentPage===$page.value){
 ---
 transition: fade-out
 layout: center
-zoom: 0.3
+zoom: 0.5
 ---
 
 <script setup>
+
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
   setTimeout(()=> {$slidev.nav.nextSlide()},3000)
 }})
+
 </script>
 <div>
 <img src=./images/2.png />
@@ -65,11 +69,13 @@ zoom: 0.5
 ---
 
 <script setup>
+
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
   setTimeout(()=> {$slidev.nav.nextSlide()},3000)
 }})
+
 </script>
 <div>
 <img src=./images/3.png />
@@ -82,11 +88,13 @@ zoom: 0.5
 ---
 
 <script setup>
+
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
   setTimeout(()=> {$slidev.nav.nextSlide()},3000)
 }})
+
 </script>
 <div>
 <img src=./images/4.png />
@@ -113,7 +121,7 @@ if ($slidev.nav.currentPage===$page.value){
 ---
 transition: zoom
 layout: center
-zoom: 0.5
+zoom: 0.3
 ---
 
 <script setup>
@@ -131,7 +139,7 @@ if ($slidev.nav.currentPage===$page.value){
 ---
 transition: fade-out
 layout: center
-zoom: 0.5
+zoom: 0.3
 ---
 
 <script setup>
@@ -164,4 +172,4 @@ if ($slidev.nav.currentPage===$page.value){
 <img src=./images/8.jpg />
 </div>
 
-<PoweredBySlidev mt-10 />
+
