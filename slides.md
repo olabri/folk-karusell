@@ -7,6 +7,14 @@ transition: slide-left
 layout: center
 ---
 
+<script setup>
+import {onMounted} from 'vue';
+onMounted(() => {
+if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+}})
+</script>
+
 # Mye flott skal skje på FOLK sin del av Follesefestivalen! 
  ## Lørdag 31. mai
 
@@ -20,6 +28,14 @@ zoom: 0.3
 layout: center
 ---
 
+<script setup>
+import {onMounted} from 'vue';
+onMounted(() => {
+if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+}})
+</script>
+
 <div>
 <img src=./images/1.jpg />
 </div>
@@ -30,8 +46,15 @@ layout: center
 zoom: 0.3
 ---
 
+<script setup>
+import {onMounted} from 'vue';
+onMounted(() => {
+if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+}})
+</script>
 <div>
-<img src=./images/1.jpg />
+<img src=./images/2.png />
 </div>
 
 ---
@@ -41,16 +64,30 @@ layout: center
 zoom: 0.5
 ---
 
+<script setup>
+import {onMounted} from 'vue';
+onMounted(() => {
+if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+}})
+</script>
 <div>
 <img src=./images/3.png />
 </div>
 
 ---
-transition: fade-out
+transition: slide-down
 layout: center
 zoom: 0.5
 ---
 
+<script setup>
+import {onMounted} from 'vue';
+onMounted(() => {
+if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+}})
+</script>
 <div>
 <img src=./images/4.png />
 </div>
@@ -61,16 +98,31 @@ layout: center
 zoom: 0.5
 ---
 
+<script setup>
+import {onMounted} from 'vue';
+onMounted(() => {
+if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+}})
+</script>
 <div>
 <img src=./images/5.png />
 </div>
 
 
 ---
-transition: fade-out
+transition: zoom
 layout: center
 zoom: 0.5
 ---
+
+<script setup>
+import {onMounted} from 'vue';
+onMounted(() => {
+if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+}})
+</script>
 
 <div>
 <img src=./images/6.jpg />
@@ -78,26 +130,38 @@ zoom: 0.5
 
 ---
 transition: fade-out
-layout: image
+layout: center
 zoom: 0.5
 ---
+
+<script setup>
+import {onMounted} from 'vue';
+onMounted(() => {
+if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+}})
+</script>
 
 <div>
 <img src=./images/7.jpg />
 </div>
 
-
-
 ---
 transition: fade-out
-layout: image
-zoom: 0.5
+layout: center
+zoom: 0.3
 ---
+
+<script setup>
+import {onMounted} from 'vue';
+onMounted(() => {
+if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {window.location.href=1},3000)
+}})
+</script>
 
 <div>
 <img src=./images/8.jpg />
 </div>
-
-
 
 <PoweredBySlidev mt-10 />
