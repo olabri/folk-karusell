@@ -29,13 +29,11 @@ layout: center
 ---
 
 <script setup>
-
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
   setTimeout(()=> {$slidev.nav.nextSlide()},3000)
 }})
-
 </script>
 
 <div>
@@ -49,14 +47,13 @@ zoom: 0.5
 ---
 
 <script setup>
-
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
   setTimeout(()=> {$slidev.nav.nextSlide()},3000)
 }})
-
 </script>
+
 <div>
 <img src=./images/2.png />
 </div>
@@ -69,14 +66,13 @@ zoom: 0.5
 ---
 
 <script setup>
-
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
   setTimeout(()=> {$slidev.nav.nextSlide()},3000)
 }})
-
 </script>
+
 <div>
 <img src=./images/3.png />
 </div>
