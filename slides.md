@@ -32,7 +32,7 @@ layout: center
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+  setTimeout(()=> {window.location.href=3},3000)
 }})
 </script>
 
@@ -50,7 +50,7 @@ zoom: 0.5
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+  setTimeout(()=> {window.location.href=4},3000)
 }})
 </script>
 
@@ -69,7 +69,7 @@ zoom: 0.5
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+  setTimeout(()=> {window.location.href=5},3000)
 }})
 </script>
 
@@ -84,13 +84,11 @@ zoom: 0.5
 ---
 
 <script setup>
-
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+  setTimeout(()=> {window.location.href=6},3000)
 }})
-
 </script>
 <div>
 <img src=./images/4.png />
@@ -106,7 +104,7 @@ zoom: 0.5
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+  setTimeout(()=> {window.location.href=7},3000)
 }})
 </script>
 <div>
@@ -124,7 +122,7 @@ zoom: 0.3
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+  setTimeout(()=> {window.location.href=8},3000)
 }})
 </script>
 
@@ -142,7 +140,7 @@ zoom: 0.3
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+  setTimeout(()=> {window.location.href=9},3000)
 }})
 </script>
 
