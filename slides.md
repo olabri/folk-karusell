@@ -11,15 +11,12 @@ layout: center
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {$slidev.nav.nextSlide()},3000)
+  setTimeout(()=> {window.location.href=2},1000)
 }})
 </script>
 
-# Mye flott skal skje på FOLK sin del av Follesefestivalen! 
- ## Lørdag 31. mai
-
- ### kl 15:00 - 18:00 for alle  
- ### kl 20:00 over 18 år. 
+# Velkommen 7. klasse!  
+ 
 
 ---
 class: text-center
@@ -32,13 +29,11 @@ layout: center
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=3},3000)
+  setTimeout(()=> {window.location.href=3},2000)
 }})
 </script>
 
-<div>
-<img src=./images/1.jpg />
-</div>
+# Juni: Konsert med Asbjørn Ribe
 
 ---
 transition: fade-out
@@ -50,13 +45,15 @@ zoom: 0.5
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=4},3000)
+  setTimeout(()=> {window.location.href=4},1000)
 }})
 </script>
 
-<div>
-<img src=./images/2.png />
-</div>
+# Tid for Dugnad!
+## mandag 17:30-21:00
+## onsdag 11:00-14:00
+## torsdag 17:30:21:00
+
 
 ---
 transition: slide-up
@@ -69,13 +66,11 @@ zoom: 0.5
 import {onMounted} from 'vue';
 onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=5},3000)
+  setTimeout(()=> {window.location.href=1},1000)
 }})
 </script>
 
-<div>
-<img src=./images/3.png />
-</div>
+## Ser du noe du som kan fikses? Skriv deg opp på lista på tavla
 
 ---
 transition: slide-down
