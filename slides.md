@@ -8,11 +8,12 @@ layout: center
 ---
 
 <script setup>
-import {onMounted} from 'vue';
-onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=2},1000)
-}})
+  setTimeout(()=> {
+    window.location.href=2
+     },2000
+    )
+}
 </script>
 
 # Velkommen 7. klasse!  
@@ -21,16 +22,17 @@ if ($slidev.nav.currentPage===$page.value){
 ---
 class: text-center
 transition: slide-left
-zoom: 0.3
 layout: center
 ---
 
 <script setup>
-import {onMounted} from 'vue';
-onMounted(() => {
+
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=3},2000)
-}})
+  setTimeout(()=> {
+    window.location.href=3
+     },2000
+    )
+}
 </script>
 
 # Juni: Konsert med Asbjørn Ribe
@@ -38,15 +40,16 @@ if ($slidev.nav.currentPage===$page.value){
 ---
 transition: fade-out
 layout: center
-zoom: 0.5
 ---
 
 <script setup>
-import {onMounted} from 'vue';
-onMounted(() => {
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=4},1000)
-}})
+  
+  setTimeout(()=> {
+    window.location.href=4
+     },2000
+    )
+}
 </script>
 
 # Tid for Dugnad!
@@ -59,15 +62,16 @@ if ($slidev.nav.currentPage===$page.value){
 transition: slide-up
 level: 2
 layout: center
-zoom: 0.5
 ---
 
 <script setup>
-import {onMounted} from 'vue';
-onMounted(() => {
+
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=1},1000)
-}})
+  setTimeout(()=> {
+    window.location.href=1
+     },2000
+    )
+}
 </script>
 
 ## Ser du noe du som kan fikses? Skriv deg opp på lista på tavla
@@ -79,12 +83,14 @@ zoom: 0.5
 ---
 
 <script setup>
-import {onMounted} from 'vue';
-onMounted(() => {
-if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=6},3000)
-}})
+ if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {
+    window.location.href=6
+     },3000
+    )
+}
 </script>
+
 <div>
 <img src=./images/4.png />
 </div>
