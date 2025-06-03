@@ -9,14 +9,11 @@ layout: center
 
 <script setup>
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {
-    window.location.href=2
-     },2000
-    )
+  setTimeout(()=> {$slidev.nav.nextSlide()},2000)
 }
 </script>
 
-# Velkommen 7. klasse!  
+# Velkommen!
  
 
 ---
@@ -28,10 +25,7 @@ layout: center
 <script setup>
 
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {
-    window.location.href=3
-     },2000
-    )
+  setTimeout(()=> {$slidev.nav.nextSlide()},2000)
 }
 </script>
 
@@ -45,10 +39,7 @@ layout: center
 <script setup>
 if ($slidev.nav.currentPage===$page.value){
   
-  setTimeout(()=> {
-    window.location.href=4
-     },2000
-    )
+  setTimeout(()=> {$slidev.nav.nextSlide()},2000)
 }
 </script>
 
@@ -60,17 +51,13 @@ if ($slidev.nav.currentPage===$page.value){
 
 ---
 transition: slide-up
-level: 2
 layout: center
 ---
 
 <script setup>
 
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {
-    window.location.href=1
-     },2000
-    )
+  setTimeout(()=> {window.location.href=1} ,2000)
 }
 </script>
 
