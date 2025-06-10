@@ -31,8 +31,9 @@ if ($slidev.nav.currentPage===$page.value){
 
 # 20. Juni: Konsert med Asbjørn Ribe
 
+
 <div>
-<img src=./images/ribe.jpg />
+<img style='width:80%;display: block;margin: auto;' src=./images/ribe.jpg />
 </div>
 
 ---
@@ -54,6 +55,7 @@ if ($slidev.nav.currentPage===$page.value){
 
 
 ---
+class: text-center
 transition: slide-up
 layout: center
 ---
@@ -65,7 +67,12 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-## Søndag 15 Juni. Brettspillkveld
+# Søndag 15. Juni - Brettspillkveld
+
+
+<div>
+<img style='width:80%;display:block;margin:auto;' src=./images/brettspill.jpg />
+</div>
 
 ---
 transition: slide-down
