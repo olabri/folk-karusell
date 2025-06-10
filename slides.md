@@ -29,7 +29,11 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# Juni: Konsert med Asbjørn Ribe
+# 20. Juni: Konsert med Asbjørn Ribe
+
+<div>
+<img src=./images/ribe.jpg />
+</div>
 
 ---
 transition: fade-out
@@ -61,7 +65,7 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-## Ser du noe du som kan fikses? Skriv deg opp på lista på tavla
+## Søndag 15 Juni. Brettspillkveld
 
 ---
 transition: slide-down
