@@ -5,11 +5,12 @@ info: folk-karusell
 class: text-center
 transition: slide-left
 layout: center
+preload: false
 ---
 
 <script setup>
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {$slidev.nav.nextSlide()},2000)
+  setTimeout(()=> {$slidev.nav.nextSlide()},4000)
 }
 </script>
 
@@ -20,12 +21,13 @@ if ($slidev.nav.currentPage===$page.value){
 class: text-center
 transition: slide-left
 layout: center
+preload: false
 ---
 
 <script setup>
 
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {$slidev.nav.nextSlide()},2000)
+  setTimeout(()=> {$slidev.nav.nextSlide()},4000)
 }
 </script>
 
@@ -39,12 +41,13 @@ if ($slidev.nav.currentPage===$page.value){
 ---
 transition: fade-out
 layout: center
+preload: false
 ---
 
 <script setup>
 if ($slidev.nav.currentPage===$page.value){
   
-  setTimeout(()=> {$slidev.nav.nextSlide()},2000)
+  setTimeout(()=> {$slidev.nav.nextSlide()},4000)
 }
 </script>
 
@@ -58,12 +61,13 @@ if ($slidev.nav.currentPage===$page.value){
 class: text-center
 transition: slide-up
 layout: center
+preload: false
 ---
 
 <script setup>
 
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=1} ,2000)
+  setTimeout(()=> {window.location.href=1} ,4000)
 }
 </script>
 
