@@ -1,5 +1,5 @@
 ---
-theme: seriph
+theme: apple-basic
 title: Folk
 info: folk-karusell
 class: text-center
@@ -14,7 +14,11 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# Velkommen!
+# Velkommen til FOLK!
+
+<div>
+<img style='width:80%;display: block;margin: auto;' src=./images/folk_200.png />
+</div>
  
 
 ---
@@ -31,7 +35,9 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# 20. Juni: Konsert med Asbjørn Ribe
+## Fredag 20. Juni: 
+
+# Konsert med Asbjørn Ribe
 
 
 <div>
@@ -52,6 +58,7 @@ if ($slidev.nav.currentPage===$page.value){
 </script>
 
 # Tid for Dugnad!
+
 ## mandag 17:30-21:00
 ## onsdag 11:00-14:00
 ## torsdag 17:30:21:00
@@ -71,102 +78,13 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# Søndag 15. Juni - Brettspillkveld
+# Sommerhelg
 
 
 <div>
-<img style='width:80%;display:block;margin:auto;' src=./images/brettspill.jpg />
-</div>
-
----
-transition: slide-down
-layout: center
-zoom: 0.5
----
-
-<script setup>
- if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {
-    window.location.href=6
-     },3000
-    )
-}
-</script>
-
-<div>
-<img src=./images/4.png />
-</div>
-
----
-transition: fade-out
-layout: center
-zoom: 0.5
----
-
-<script setup>
-import {onMounted} from 'vue';
-onMounted(() => {
-if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=7},3000)
-}})
-</script>
-<div>
-<img src=./images/5.png />
+<img style='width:80%;display:block;margin:auto;' src=./images/6.jpg />
 </div>
 
 
----
-transition: zoom
-layout: center
-zoom: 0.3
----
-
-<script setup>
-import {onMounted} from 'vue';
-onMounted(() => {
-if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=8},3000)
-}})
-</script>
-
-<div>
-<img src=./images/6.jpg />
-</div>
-
----
-transition: fade-out
-layout: center
-zoom: 0.3
----
-
-<script setup>
-import {onMounted} from 'vue';
-onMounted(() => {
-if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=9},3000)
-}})
-</script>
-
-<div>
-<img src=./images/7.jpg />
-</div>
-
----
-transition: fade-out
-layout: center
-zoom: 0.3
----
-
-<script setup>
-import {onMounted} from 'vue';
-onMounted(() => {
-if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=1},3000)
-}})
-</script>
-
-<div>
-<img src=./images/8.jpg />
-</div>
 
 
