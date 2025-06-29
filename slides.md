@@ -70,6 +70,26 @@ if ($slidev.nav.currentPage===$page.value){
 </div>
 ---
 class: text-center
+transition: slide-up
+layout: center
+preload: false
+---
+
+<script setup>
+
+if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {$slidev.nav.nextSlide()} ,4000)
+}
+</script>
+
+# 20. Juli Brettspillkveld
+
+
+<div>
+<img style='width:80%;display:block;margin:auto;' src=./images/brettspill.jpg />
+</div>
+---
+class: text-center
 transition: fade-out
 layout: center
 preload: false
