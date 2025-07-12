@@ -33,18 +33,13 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# Tid for Dugnad!
+# Gratulerer med dagen Kristin!
 
 
 <div>
-<img style='width:60%;display:block' src=./images/3.png />
+<img src=./images/kristin/1.jpg />
 </div>
 
-
-
-## mandag  17:30-21:00
-## onsdag  11:00-14:00
-## torsdag 17:30:21:00
 
 
 ---
@@ -61,11 +56,9 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# Sommersøndag
-
 
 <div>
-<img style='width:80%;display:block;margin:auto;' src=./images/6.jpg />
+<img style='width:80%;display:block;margin:auto;' src=./images/kristin/2.jpg />
 </div>
 ---
 class: text-center
@@ -81,11 +74,8 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# 20. Juli Brettspillkveld
-
-
 <div>
-<img style='width:80%;display:block;margin:auto;' src=./images/brettspill.jpg />
+<img style='width:80%;display:block;margin:auto;' src=./images/kristin/3.jpg />
 </div>
 ---
 class: text-center
@@ -101,11 +91,9 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# UNG! Fredagskos
-
 
 <div>
-<img style='width:50%;display:block;margin:auto;' src=./images/7.jpg />
+<img style='width:50%;display:block;margin:auto;' src=./images/kristin/4.jpg />
 </div>
 ---
 class: text-center
@@ -122,7 +110,7 @@ if ($slidev.nav.currentPage===$page.value){
 </script>
 
 <div>
-<img style='width:90%;display:block;margin:auto;' src=./images/18_08.jpg />
+<img style='width:90%;display:block;margin:auto;' src=./images/kristin/5.jpg />
 </div>
 ---
 class: text-center
@@ -138,31 +126,9 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# Høsten på FOLK
-
 
 <div>
-<img style='width:70%;display:block;margin:auto;' src=./images/h_25.jpg />
-</div>
----
-class: text-center
-transition: fade-out
-layout: center
-preload: false
----
-
-<script setup>
-
-if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {$slidev.nav.nextSlide()} ,4000)
-}
-</script>
-
-# Bærekraft
-
-
-<div>
-<img style='width:50%;display:block;margin:auto;' src=./images/bk.jpg />
+<img style='width:40%;display:block;margin:auto;' src=./images/kristin/6.jpg />
 </div>
 ---
 class: text-center
@@ -178,10 +144,8 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-
-
 <div>
-<img style='width:90%;display:block;margin:auto;' src=./images/27_9.jpg />
+<img style='width:50%;display:block;margin:auto;' src=./images/kristin/7.jpg />
 </div>
 
 
