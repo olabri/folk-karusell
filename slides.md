@@ -61,11 +61,9 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# Sommersøndag
-
 
 <div>
-<img style='width:80%;display:block;margin:auto;' src=./images/6.jpg />
+<img style='width:60%;display:block;margin:auto;' src=./images/h_1.jpg />
 </div>
 ---
 class: text-center
@@ -81,11 +79,9 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# 20. Juli Brettspillkveld
-
 
 <div>
-<img style='width:80%;display:block;margin:auto;' src=./images/brettspill.jpg />
+<img style='width:60%;display:block;margin:auto;' src=./images/h_2.jpg />
 </div>
 ---
 class: text-center
@@ -101,29 +97,12 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# UNG! Fredagskos
 
 
 <div>
-<img style='width:50%;display:block;margin:auto;' src=./images/7.jpg />
+<img style='width:60%;display:block;margin:auto;' src=./images/h_3.jpg />
 </div>
----
-class: text-center
-transition: fade-out
-layout: center
-preload: false
----
 
-<script setup>
-
-if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {$slidev.nav.nextSlide()} ,4000)
-}
-</script>
-
-<div>
-<img style='width:90%;display:block;margin:auto;' src=./images/18_08.jpg />
-</div>
 ---
 class: text-center
 transition: fade-out
