@@ -33,18 +33,19 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# Tid for Dugnad!
+<div style=text-align:center;>
 
+# Tid for dugnad!
 
 <div>
 <img style='width:100%;display:block;margin: auto;' src=./images/3.png />
 </div>
 
 
-
 ## onsdag  11:00-14:00
 ## torsdag 17:30:21:00
 
+</div>
 
 ---
 class: text-center
