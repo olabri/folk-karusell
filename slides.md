@@ -42,7 +42,6 @@ if ($slidev.nav.currentPage===$page.value){
 
 
 
-## mandag  17:30-21:00
 ## onsdag  11:00-14:00
 ## torsdag 17:30:21:00
 
@@ -61,7 +60,7 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-
+# Bygdemiddag
 <div>
 <img style='width:80%;display:block;margin:auto;' src=./images/h_1.jpg />
 </div>
@@ -79,6 +78,7 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
+# Kafe
 
 <div>
 <img style='width:80%;display:block;margin:auto;' src=./images/h_2.jpg />
@@ -98,11 +98,11 @@ if ($slidev.nav.currentPage===$page.value){
 }
 </script>
 
-# Høsten på FOLK
+# Follese Brettspillklubb
 
 
 <div>
-<img style='width:80%;display:block;margin:auto;' src=./images/h_25.jpg />
+<img style='width:80%;display:block;margin:auto;' src=./images/follese_brettspillklubb.jpg />
 </div>
 ---
 class: text-center
@@ -141,7 +141,7 @@ if ($slidev.nav.currentPage===$page.value){
 
 
 <div>
-<img style='width:100%;display:block;margin:auto;' src=./images/27_9.jpg />
+<img style='width:100%;display:block;margin:auto;' src=./images/folk_ung.png />
 </div>
 
 
