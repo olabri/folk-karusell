@@ -145,5 +145,42 @@ if ($slidev.nav.currentPage===$page.value){
 <img style='width:100%;display:block;margin:auto;' src=./images/folk_ung.png />
 </div>
 
+---
+class: text-center
+transition: fade-out
+layout: center
+preload: false
+---
+
+<script setup>
+
+if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {window.location.href=1} ,4000)
+}
+</script>
+
+<div>
+<img style='width:100%;display:block;margin:auto;' src=./images/FMK_1.jpg />
+</div>
+
+
+---
+class: text-center
+transition: fade-out
+layout: center
+preload: false
+---
+
+<script setup>
+
+if ($slidev.nav.currentPage===$page.value){
+  setTimeout(()=> {window.location.href=1} ,4000)
+}
+</script>
+
+<div>
+<img style='width:100%;display:block;margin:auto;' src=./images/FMK_2.jpg />
+</div>
+
 
 
