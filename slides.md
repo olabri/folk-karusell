@@ -135,7 +135,7 @@ preload: false
 <script setup>
 
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=1} ,4000)
+  setTimeout(()=> {$slidev.nav.nextSlide()} ,4000)
 }
 </script>
 
@@ -155,7 +155,7 @@ preload: false
 <script setup>
 
 if ($slidev.nav.currentPage===$page.value){
-  setTimeout(()=> {window.location.href=1} ,4000)
+  setTimeout(()=> {$slidev.nav.nextSlide()} ,4000)
 }
 </script>
 
