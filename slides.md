@@ -103,7 +103,7 @@ if ($slidev.nav.currentPage===$page.value){
 
 
 <div>
-<img style='width:80%;display:block;margin:auto;' src=./images/follese_brettspillklubb.jpg />
+<img style='width:80%;display:block;margin:auto;' src=./images/brettspillkveld.png />
 </div>
 ---
 class: text-center
